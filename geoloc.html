@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name = "viewport", content="width = device-width, initial-scale=1">
+  <title> UCL </title>
+  
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.0.3/leaflet.js"></script>
+    <script src="https://cdn.maptiler.com/mapbox-gl-js/v1.13.2/mapbox-gl.js"></script>
+    <script src="https://cdn.maptiler.com/mapbox-gl-leaflet/latest/leaflet-mapbox-gl.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.0.3/leaflet.css" />
+    <link rel="stylesheet" href="https://cdn.maptiler.com/mapbox-gl-js/v1.13.2/mapbox-gl.css" />
+  
+  <link rel = "stylesheet" href = "ucl.css"> 
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family
+  =Noto+Sans+Mono:wght@100;300;500;700;900&display=swap" rel="stylesheet">
+</head>
+<body>
+  <section class="background">
+      <nav>
+        <a href = "https://www.uefa.com/uefachampionsleague/"> 
+        <img src = "img/u.png" alt = "logo"></a>
+        <div class = "links">
+          <ul>
+            <li><a href ="ucl.html"> HOME </a></li>
+            <li><a href ="login.php"> MAINTENANCE </a></li>
+            <li><a href =""> MATCHES </a></li>
+            <li><a href =""> PLAYERS </a></li>
+            <li><a href =""> TEAMS </a></li>
+            <li><a href =""> GROUPS </a></li>
+            <li><a href ="geoloc.html"> LOCATION </a></li>
+            <li><a href = "in.php">SEARCH</a></li>
+            <li><a href = "imprint.html"> IMPRINT </a></li>
+            </ul>
+      </nav>
+      <div id="map">
+        <h2> FIND WHAT YOU ARE LOOKING FOR IN THE MAP </h2>
+      </div>
+      
+      <script>
+        var map = L.map('map').setView([0, -0.35156], 1);
+        var gl = L.mapboxGL({
+          attribution: "\u003ca href=\"https://www.maptiler.com/copyright/\" target=\"_blank\"\u003e\u0026copy; MapTiler\u003c/a\u003e \u003ca href=\"https://www.openstreetmap.org/copyright\" target=\"_blank\"\u003e\u0026copy; OpenStreetMap contributors\u003c/a\u003e",
+          style: 'https://api.maptiler.com/maps/streets/style.json?key=Yd1XGol1BsG9muwGHyc1'
+        }).addTo(map);
+      </script>
+  </section>
+</body>
+</html>
