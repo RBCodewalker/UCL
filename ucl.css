@@ -1,0 +1,168 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'sans-serif', monospace;
+}
+
+h1 {
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    font-size: 62px;
+}
+
+h2 {
+    font-weight: bold;
+    color: rgb(255, 0, 0);
+    font-size: 42px;
+}
+
+p {
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+}
+
+.background{
+    min-height: 100vh;
+    width: 100%;
+    background-image: url(img/Untitled-1.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+nav{
+    display: flex;
+    padding: 1% 7%;
+    justify-content: space-between;
+    align-items: center;
+}
+nav img{
+    width: 200px;
+    padding: 0% 80%;
+}
+
+.links{
+    flex: 1;
+    text-align: right;
+}
+.links ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 40px 12px;
+    position: relative;
+}
+.links ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 30px;
+}
+.links ul li::after{
+    content: "";
+    width: 0%;
+    height: 3px;
+    background: rgb(176, 98, 194);
+    display: block;
+    margin: auto;
+    transition: 0.3s;
+}
+.links ul li:hover::after{
+    width: 100%;
+}
+
+.links2{
+    flex: 1;
+    text-align: right;
+}
+.links2 ul li{
+    list-style: none;
+    /*display: inline-block;*/
+    padding: 25px 9px;
+    position: relative;
+}
+.links2 ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 200%;
+}
+.links2 ul li::after{
+    content: "";
+    width: 0%;
+    height: 7px;
+    background: rgb(109, 83, 156);
+    display: inline-block;
+    margin: auto;
+    transition: 0.3s;
+}
+
+.links2 ul li::before{
+    content: "";
+    width: 0%;
+    height: 7px;
+    background: rgb(109, 83, 156);
+    display: inline-block;
+    margin: auto;
+    transition: 0.3s;
+}
+
+.links2 ul li:hover::before{
+    width: 1%;
+}
+.links2 ul li:hover::after{
+    width: 1%;
+}
+
+.infoline{
+    width: 90%;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    top: 30%;
+    left: 95%;
+    transform: translate(-100%, -0%);
+    text-align: right;
+}
+
+.design{
+    display: inline-block;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    border: 2px solid rgb(255, 255, 255);
+    padding: 20px 20px 20px 20px;
+    font-size: 20px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+}
+
+.form{
+    width: 90%;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    top: 30%;
+    left: 95%;
+    transform: translate(-100%, -0%);
+    text-align: right;
+}
+
+/* .showmap{
+    width: 90%;
+    color: rgb(75, 0, 0);
+    position: absolute;
+    top: 15%;
+    left: 95%;
+    transform: translate(-100%, 0%);
+    text-align: right;
+} */
+
+#showmap{
+    height: 70vh;
+    width: 197vh;
+    color: rgb(75, 0, 0);
+    position: absolute;
+    top: 30%;
+    left: 0%;
+    right: 0%;
+    bottom: 0;
+    /* transform: translate(-100%, 0%); */
+    text-align: center;
+}
