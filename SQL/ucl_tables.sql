@@ -6,7 +6,7 @@ CREATE TABLE Player(
 		s_num INT NOT NULL, 
 		p_name VARCHAR(50), 
 		age INT NOT NULL,
-		pos VARCHAR(5), 
+		pos VARCHAR(5),
 		country VARCHAR(100),
 		salary INT NOT NULL,
 		goals INT NOT NULL,
