@@ -33,7 +33,7 @@ CREATE TABLE Stadium(
 		stad_name VARCHAR(100),
 		cap INT NOT NULL,
 		PRIMARY KEY(stad_name)
-);
+); 
 
 CREATE TABLE Matches( 
 		m_date VARCHAR(20),
