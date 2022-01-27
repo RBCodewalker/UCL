@@ -35,7 +35,7 @@ CREATE TABLE Stadium(
 		PRIMARY KEY(stad_name)
 );
 
-CREATE TABLE Matches(
+CREATE TABLE Matches( 
 		m_date VARCHAR(20),
 		result VARCHAR(30),
 		p_earned INT NOT NULL,
