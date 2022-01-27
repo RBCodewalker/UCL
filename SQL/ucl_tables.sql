@@ -28,7 +28,7 @@ CREATE TABLE Manager(
 		c_trophies INT NOT NULL,
 		PRIMARY KEY(m_name)
 );
-
+ 
 CREATE TABLE Stadium(
 		stad_name VARCHAR(100),
 		cap INT NOT NULL,
