@@ -11,7 +11,7 @@ CREATE TABLE Player(
 		salary INT NOT NULL,
 		goals INT NOT NULL,
 		assists INT NOT NULL
-); 
+);
 
 CREATE TABLE Team(
 		t_name VARCHAR(50),
