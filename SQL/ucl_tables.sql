@@ -3,7 +3,7 @@
 --Main Tables
 CREATE TABLE Player(
 		pid INT AUTO_INCREMENT PRIMARY KEY,
-		s_num INT NOT NULL, 
+		s_num INT NOT NULL,
 		p_name VARCHAR(50),
 		age INT NOT NULL,
 		pos VARCHAR(5),
