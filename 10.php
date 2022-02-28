@@ -36,7 +36,7 @@
             <li><a href = "in.php">SEARCH</a></li>
             <li><a href = "imprint.html"> IMPRINT </a></li>
             </ul>
-      </nav> 
+      </nav>
   <p> Results </p>
   <table border="1">
   <tr> 
