@@ -42,7 +42,7 @@
   <tr> 
       <th> Player Number </th>
       <th> Player Name< </th>
-      <th> Age </th> 
+      <th> Age </th>
       <th> Player Country</th>
       <th> Salary </th>
       <th> Team </th>
