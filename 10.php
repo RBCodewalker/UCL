@@ -11,21 +11,21 @@
   <link href="https://fonts.googleapis.com/css2?family
   =Noto+Sans+Mono:wght@100;300;500;700;900&display=swap" rel="stylesheet">
 </head>
-<?php
+<?php 
         $servername = "localhost";
         $username = "group10";
         $password = "QaTqdl";
         $dbname = "group10";
         // Create connection
         $conn = mysqli_connect($servername, $username, $password, $dbname);
-?>
-<body>
+?> 
+<body> 
   <section class="background">
-      <nav>
+      <nav> 
         <a href = "https://www.uefa.com/uefachampionsleague/"> 
         <img src = "img/u.png" alt = "logo"></a>
         <div class = "links">
-          <ul>
+          <ul> 
             <li><a href ="ucl.html"> HOME </a></li>
             <li><a href ="login.php"> MAINTENANCE </a></li>
             <li><a href =""> MATCHES </a></li>
@@ -36,13 +36,13 @@
             <li><a href = "in.php">SEARCH</a></li>
             <li><a href = "imprint.html"> IMPRINT </a></li>
             </ul>
-      </nav>
+      </nav> 
   <p> Results </p>
   <table border="1">
-  <tr>
+  <tr> 
       <th> Player Number </th>
       <th> Player Name< </th>
-      <th> Age </th>
+      <th> Age </th> 
       <th> Player Country</th>
       <th> Salary </th>
       <th> Team </th>
