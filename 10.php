@@ -18,7 +18,7 @@
         $dbname = "group10";
         // Create connection
         $conn = mysqli_connect($servername, $username, $password, $dbname);
-?> 
+?>
 <body>
   <section class="background">
       <nav> 
