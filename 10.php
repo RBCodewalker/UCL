@@ -39,7 +39,7 @@
       </nav>
   <p> Results </p>
   <table border="1">
-  <tr> 
+  <tr>
       <th> Player Number </th>
       <th> Player Name< </th>
       <th> Age </th>
