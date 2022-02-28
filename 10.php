@@ -19,7 +19,7 @@
         // Create connection
         $conn = mysqli_connect($servername, $username, $password, $dbname);
 ?> 
-<body> 
+<body>
   <section class="background">
       <nav> 
         <a href = "https://www.uefa.com/uefachampionsleague/"> 
