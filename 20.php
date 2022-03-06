@@ -11,7 +11,7 @@
   <link href="https://fonts.googleapis.com/css2?family
   =Noto+Sans+Mono:wght@100;300;500;700;900&display=swap" rel="stylesheet">
 </head>
-<?php
+<?php 
         $servername = "localhost";
         $username = "group10";
         $password = "QaTqdl";
