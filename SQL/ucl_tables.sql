@@ -10,7 +10,7 @@ CREATE TABLE Player(
 		country VARCHAR(100),
 		salary INT NOT NULL,
 		goals INT NOT NULL,
-		assists INT NOT NULL,
+		assists INT NOT NULL
 );
 
 CREATE TABLE Team(
