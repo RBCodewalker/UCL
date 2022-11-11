@@ -1,0 +1,28 @@
+<html>
+    <head>
+      <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+      <script type="text/javascript">
+        google.charts.load('current', {
+          'packages':['geochart'],
+        });
+        google.charts.setOnLoadCallback(drawRegionsMap);
+        function drawRegionsMap() {
+          var data = google.visualization.arrayToDataTable([
+            ['Country'],
+            ['Nepal'],
+            ['Germany'],
+            ['Sierra Leone'],
+            ['Burundi'],  
+            ['Zimbabwe'],
+            ['Ecuador']
+          ]);
+          var options = {};
+          var chart = new google.visualization.GeoChart(document.getElementById('1470986505'));
+          chart.draw(data, options);
+        }
+      </script>
+    </head>
+    <body>
+      <div class="dmRespRow" id="1470986505" style="width: 60vw; height: 70vh; top: 0; bottom: 0; left: 0; right: 0; margin: auto; border: 1px solid rgb(243, 236, 131);"></div>
+    </body>
+  </html>
